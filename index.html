@@ -148,7 +148,55 @@
       header {
         height: 100vh !important;
       }
+      
+      <!-- test -->
+      /* Footer */
+footer {
+    background: var(--clr-dark);
+    margin: 0 auto;
+    text-align: center;
+    padding: 3.7em 0 1.5em;
+    color: var(--clr-accent);
+}
 
+footer a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.footer-link {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--clr-light);
+    border-radius: .7em; 
+    padding: .1em .5em;
+    transition: 200ms ease-in-out;
+}
+
+.footer-link:hover, .social-list-link:hover {
+    transform: scale(1.1);
+    color: var(--clr-accent);
+}
+
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 0.5em 0;
+    padding: 0;
+}
+
+.social-list-item {
+    margin: 0 .3em;
+}
+
+.social-list-link {
+    display: inline-block;
+    padding: .8em .2em 0;
+    font-size: var(--fs-h4);
+}
+    <!--over -->
       @media (min-width: 961px) {
         header .intro-text {
           padding-top: 25 em;
